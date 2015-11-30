@@ -1492,18 +1492,18 @@
     <None Include="Resources\image.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SrcChess2\AviFile\AviFile.csproj">
-      <Project>{abb32a29-af50-47fa-b243-5fd75a5aba54}</Project>
-      <Name>AviFile</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Skull Fire.wav" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Skull Fire.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AviFile\AviFile.csproj">
+      <Project>{abb32a29-af50-47fa-b243-5fd75a5aba54}</Project>
+      <Name>AviFile</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
